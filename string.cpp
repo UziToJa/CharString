@@ -28,3 +28,15 @@ int count(char *text)
     c =  c - 1;
     return c;
 }
+
+void bigText(char *ciag)
+{
+    while (*ciag)
+    {
+        if ('a' <= *ciag && *ciag <= 'z')
+        {
+            *ciag -= ('a' - 'A');
+        }
+        ciag++;
+    }
+}

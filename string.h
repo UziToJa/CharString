@@ -6,5 +6,6 @@ void entertext(char *text);
 void printtext(char *text);
 void clear(void);
 int count(char *text);
+void bigText(char *ciag);
 
 #endif //CHARSTRING_STRING_H
