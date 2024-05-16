@@ -3,6 +3,7 @@
 #define CHARSTRING_STRING_H
 
 void entertext(char *text);
+void printtext(char *text);
 void clear(void);
 
 #endif //CHARSTRING_STRING_H

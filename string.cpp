@@ -12,3 +12,8 @@ void clear(void)
 {
     while(getchar()!= '\n');
 }
+
+void printtext(char *text)
+{
+    printf("%s\n",text);
+}

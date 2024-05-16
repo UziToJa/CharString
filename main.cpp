@@ -22,6 +22,7 @@ int main()
                 entertext(text);
                 break;
             case 2:
+                printtext(text);
                 break;
             case 3:
                 break;
