@@ -7,7 +7,8 @@ void menu()
     printf( "2 - Print Text\n");
     printf( "3 -Text Length\n");
     printf( "4 -Change to Big Text\n");
-    printf( "5 -Stop Program\n");
+    printf( "5 -Change To Small Text\n");
+    printf( "6 -Stop Program\n");
 }
 int main()
 {
@@ -31,9 +32,13 @@ int main()
                 break;
             case 4:
                 bigText(text);
-                puts("Change To Big Text\n");
+                printf("Change To Big Text\n");
+                break;
+            case 5:
+                smallText(text);
+                printf("Change To Small Text\n");
                 break;
         }
-    }while( choice!=5);
+    }while( choice!=6);
 }
 

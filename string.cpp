@@ -40,3 +40,14 @@ void bigText(char *ciag)
         ciag++;
     }
 }
+void smallText(char *ciag)
+{
+    while (*ciag)
+    {
+        if ('A' <= *ciag && *ciag <= 'Z')
+        {
+            *ciag += ('a' - 'A');
+        }
+        ciag++;
+    }
+}
