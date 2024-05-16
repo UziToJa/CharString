@@ -5,7 +5,8 @@ void menu()
 {
     printf("1 - Enter Text\n");
     printf( "2 - Print Text\n");
-    printf( "3 -Stop Program\n");
+    printf( "3 -Text Length\n");
+    printf( "4 -Stop Program\n");
 }
 int main()
 {
@@ -25,8 +26,9 @@ int main()
                 printtext(text);
                 break;
             case 3:
+                printf("Text length = %d\n", count(text));
                 break;
         }
-    }while( choice!=3);
+    }while( choice!=4);
 }
 

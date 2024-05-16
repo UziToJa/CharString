@@ -17,3 +17,14 @@ void printtext(char *text)
 {
     printf("%s\n",text);
 }
+
+int count(char *text)
+{
+    int c = 0 ;
+    while(*(text + c))
+    {
+        c++;
+    }
+    c =  c - 1;
+    return c;
+}

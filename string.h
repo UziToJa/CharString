@@ -5,5 +5,6 @@
 void entertext(char *text);
 void printtext(char *text);
 void clear(void);
+int count(char *text);
 
 #endif //CHARSTRING_STRING_H
